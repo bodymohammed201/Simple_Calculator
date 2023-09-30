@@ -1,0 +1,26 @@
+/*****************************************************/
+/************** Name      : Abdullah Mohammed ********/
+/************** Date      : 24/9/2023         ********/ 
+/************** SWC       : DIO               ********/ 
+/************** Version   : 1.0               ********/ 
+/*****************************************************/
+#ifndef _STD_TYPES_H
+#define _STD_TYPES_H
+
+typedef unsigned char u8;
+typedef unsigned short int u16;
+typedef unsigned long  int u32;
+typedef unsigned long long int u64 ;
+
+
+typedef signed char s8;
+typedef signed short int s16;
+typedef signed long  int s32;
+typedef signed long long int s64 ;
+
+typedef float  f32;
+typedef double f64; 
+#define              R_OK                        1
+#define              R_NOT_OK                    0
+#define              NULL               ((void*)0)
+#endif
